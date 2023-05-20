@@ -17,12 +17,12 @@ public class QuizZero {
 
     // return zero
     public static  int Qzero(int a, int b) {
-        return -1;
+        return 0;
     }
 
     // return the sum of a and b
     public static  int Qone(int a, int b) {
-        return 0;
+        return (a + b);
     }
 
     //return the product
