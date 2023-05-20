@@ -26,17 +26,23 @@ public class QuizZero {
     }
 
     //return the product
-    public static  int Qtwo(int a, int b) {  return 0; }
+    public static  int Qtwo(int a, int b) {  return (a * b); }
     //return the difference of a and b
-    public static  int Qthree(int a, int b) { return 0; }
+    public static  int Qthree(int a, int b) { return (b - a); }
     //return the nagation of a
-    public static  int Qfour(int a) { return 0; }
+    public static  int Qfour(int a) { return (-a); }
     // write code to pass the test
-    public static  int Qfive(int a, int b) {return 0; }
+    public static  int Qfive(int a, int b) {return (a * 2); }
     // write code to pass the test
-    public static  int Qsix(int a) { return 0; }
+    public static  int Qsix(int a) { return (int) (Math.pow(a, 3)); }
     // write code to pass the test
-    public static  int Qseven(int a, int b) { return 0; }
+    public static  int Qseven(int a, int b) { 
+        if ((a - (b*2)) < 0) {
+            return (a - b);
+        } else {
+            return (a - (b*2));
+        }
+    }
     //return the sum of a and b divded by c
     public static  int Qeight(int a, int b, int c) { return 0; }
     // write code to pass the test
